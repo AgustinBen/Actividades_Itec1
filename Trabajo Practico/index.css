@@ -1,0 +1,137 @@
+body{	
+	font-size: 76%;
+	color: #666;
+}
+
+h1{
+	margin:0;
+	padding:5px;
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 1.8em;
+	line-height: 1.2em;
+	color:#575757;
+}
+
+p{
+	margin:0;
+	padding:5px;
+	font-family: Verdana, sans-serif;
+	font-size: 1em;
+	line-height: 1.2em;
+	color:#333;	
+}
+
+a:link, a:visited{
+	margin:0;
+	padding:0;
+	border:0;
+	color:#97B9FA;	
+	text-decoration:none;
+}
+
+ a:hover {
+	text-decoration:underline;	
+}
+ 
+
+/* Estilos de LAYOUT */ 
+ 
+
+body{
+	margin:0;
+	padding:0;
+	border:0;
+	text-align:center;
+	}
+	
+#contenedor{
+	margin:auto;
+	padding:0;
+	border:0;
+	width: 100%;  /*  Ancho total del layout  */
+	text-align:center;
+	}
+
+#cuerpo{
+	margin:auto;
+	padding:0;
+	border:0;
+	width:100%;
+	clear:both;
+	}
+
+#top{
+	margin:auto;
+	padding:0;
+	border:0;
+	width:100%;
+	background:#A2E168; /*  Color de la Cabecera  */
+	text-align:left;
+	}	
+
+#derecha{
+	margin:0;
+	padding:0;
+	border:0;
+	width: 30%; /*  Ancho de columna Derecha  */
+	text-align:left;
+	float:right;
+	}
+
+#doble{
+	margin:auto;
+	padding:0;
+	border: 0;
+	width:70%; /*  Ancho de contenedor de Columnas Central e Izquierda   ( la suma total de los anchos de ambas columnas no puede ser mayor que el ancho de esta ) */
+	text-align:center;
+	float:left;
+	clear:both;
+	}
+
+#centro{
+	margin:0;
+	padding:0;
+	border:0;
+	width:50%; /*  Ancho de columna Central */
+	text-align:justify;
+	float:right;
+	}
+
+#izquierda{
+	margin:0;
+	padding:0;
+	border:0;
+	width:50%; /*  Ancho de columna Izquierda  */
+	text-align:left;
+	float:left;
+	}
+	
+.limpia {
+	margin:0;
+	padding:0;
+	border:0;
+	clear:both;
+	visibility:hidden;	
+	}
+	
+	
+#m_centro{
+	margin:0;
+	padding:0;
+	background:#F35656;	/*  Color de columna Central  */
+	min-height:400px; 
+	}
+	
+#m_derecha{
+	margin:0;
+	padding:0;
+	background:#F3A956; /*  Color de columna Derecha  */
+	min-height:400px;
+	}
+	
+#m_izquierda{
+	margin:0;
+	padding:0;
+	background:#F3E267; /*  Color de columna Izquierda  */
+	min-height:400px;
+	}
