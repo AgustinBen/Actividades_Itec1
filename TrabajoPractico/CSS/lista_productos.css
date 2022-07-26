@@ -1,5 +1,5 @@
 /*  Estilos basicos de TEXTO */
-
+ 
 body{	
 	font-size: 76%;
 	color: #666;
@@ -115,6 +115,7 @@ body{
 	padding:0;
 	background:#44c6dd;	/*  Color de columna Central  */ 
 	min-height:400px; 
+
 }
 	
 #m_derecha{
@@ -129,4 +130,17 @@ body{
 	padding:0;
 	background:#A2E168; /*  Color de columna Izquierda  */
 	min-height:400px;
+}
+
+#m_centro img {
+	max-width: 6rem;
+	max-height: 6rem;
+}
+#m_izquierda img {
+	max-width: 6rem;
+	max-height: 6rem;
+}
+#m_derecha img {
+	max-width: 6rem;
+	max-height: 6rem;
 }
