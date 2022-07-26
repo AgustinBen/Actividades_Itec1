@@ -44,7 +44,7 @@ body{
 	padding:0;
 	border:0;
 	text-align:center;
-	}
+}
 	
 #contenedor{
 	margin:auto;
@@ -53,7 +53,7 @@ body{
 	width:100%;  /*  Ancho total del layout  */
 	height:100%;
 	text-align:center;
-	}
+}
 
 #cuerpo{
 	margin:auto;
@@ -61,14 +61,14 @@ body{
 	border:0;
 	width:100%;
 	clear:both;
-	}
+}
 
 
 #derecha{
 	margin:0;
 	padding:0;
 	border:0;
-	width:30%; /*  Ancho de columna Derecha  */
+	width:33%; /*  Ancho de columna Derecha  */
 	text-align:left;
 	float:right;
 }
@@ -77,11 +77,11 @@ body{
 	margin:auto;
 	padding:0;
 	border:0;
-	width:70%; /*  Ancho de contenedor de Columnas Central e Izquierda   ( la suma total de los anchos de ambas columnas no puede ser mayor que el ancho de esta ) */
+	width:67%; /*  Ancho de contenedor de Columnas Central e Izquierda   ( la suma total de los anchos de ambas columnas no puede ser mayor que el ancho de esta ) */
 	text-align:center;
 	float:left;
 	clear:both;
-	}
+}
 
 #centro{
 	margin:0;
@@ -90,7 +90,7 @@ body{
 	width:50%; /*  Ancho de columna Central */
 	text-align:justify;
 	float:right;
-	}
+}
 
 #izquierda{
 	margin:0;
@@ -99,7 +99,7 @@ body{
 	width:50%; /*  Ancho de columna Izquierda  */
 	text-align:left;
 	float:left;
-	}
+}
 	
 .limpia {
 	margin:0;
@@ -107,26 +107,26 @@ body{
 	border:0;
 	clear:both;
 	visibility:hidden;	
-	}
+}
 	
 	
 #m_centro{
 	margin:0;
 	padding:0;
-	background:#F35656;	/*  Color de columna Central  */
+	background:#44c6dd;	/*  Color de columna Central  */ 
 	min-height:400px; 
-	}
+}
 	
 #m_derecha{
 	margin:0;
 	padding:0;
-	background:#F3A956; /*  Color de columna Derecha  */
+	background:#A2E168; /*  Color de columna Derecha  */
 	min-height:400px;
-	}
+}
 	
 #m_izquierda{
 	margin:0;
 	padding:0;
-	background:#F3E267; /*  Color de columna Izquierda  */
+	background:#A2E168; /*  Color de columna Izquierda  */
 	min-height:400px;
-	}
+}
