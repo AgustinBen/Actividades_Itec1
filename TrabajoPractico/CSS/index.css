@@ -1,4 +1,4 @@
-body{	
+body{	 
 	font-size: 76%;
 	color: #666;
 }
@@ -95,6 +95,7 @@ body{
 	width:100%;
 	background:#A2E168; /*  Color de la Cabecera  */
 	text-align:left;
+	font-size: 0.8rem;
 }	
 
 #derecha{

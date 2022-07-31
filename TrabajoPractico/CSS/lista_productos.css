@@ -1,4 +1,13 @@
 /*  Estilos basicos de TEXTO */
+#top{
+	margin:auto;
+	padding:0;
+	border:0;
+	width:100%;
+	background:#44c6dd; /*  Color de la Cabecera  */
+	text-align:left;
+    font-size: 0.8rem;
+}
  
 body{	
 	font-size: 76%;
@@ -31,7 +40,7 @@ a:link, a:visited{
 	text-decoration:none;
 }
 
- a:hover {
+a:hover {
 	text-decoration:underline;	
 }
  
@@ -143,4 +152,32 @@ body{
 #m_derecha img {
 	max-width: 6rem;
 	max-height: 6rem;
+}
+
+#menu {
+    font-family: Arial;
+
+}
+#menu p {
+    margin:0px;
+    padding:0px;
+    float:left;
+}
+#menu a {
+    display: block;
+    padding: 3px;
+    width: 160px;
+    background-color: #ad5fad;
+    border-bottom: 1px solid #130909;
+    border-top: 1px solid #130909;
+    text-align:center;
+}
+#menu a:link, #menu a:visited {
+    color: #140d0d;
+    text-decoration: none;
+}
+#menu a:hover {
+    background-color: #336699;
+    color: #ffffff;
+
 }
