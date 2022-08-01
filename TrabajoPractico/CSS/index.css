@@ -1,6 +1,7 @@
 body{	 
 	font-size: 76%;
 	color: #666;
+	background-color: #A2E168;
 }
  
 h1{
@@ -171,23 +172,67 @@ body{
 #m_centro ul {
 	font-family: Verdana, sans-serif;
 	font-size: 1.5rem;
-	text-decoration-color: #c71212;
+	image-resolution: 0.3rem;
+	color: #2e2a2a;
 }
 
 #m_izquierda ul {
 	font-family: Verdana, sans-serif;
 	font-size: 1.5rem;
-	text-decoration-color: #c71212;
+	image-resolution: 0.3rem;
+	color: #2e2a2a;
 }
 
 #m_derecha ul {
 	font-family: Verdana, sans-serif;
 	font-size: 1.5rem;
-	text-decoration-color: #c71212;
 	image-resolution: 0.3rem;
+	color: #2e2a2a;
 }
 
 #m_derecha img{
 	max-width: 225px;
 	max-height: 240px;
 }
+#m_izquierda img{
+	max-width: 200px;
+	max-height: 240px;
+}
+#m_centro img{
+	max-width: 200px;
+	max-height: 240px;
+}
+
+#m_centro{
+	border-radius: 20px; 
+	background-color:#ddd;
+	width:200px;
+	padding:10px;
+	background:#44c6dd;
+}
+#m_centro:hover{
+	width:300px;
+}
+
+#m_derecha{
+	border-radius: 20px; 
+	background-color:#ddd;
+	width:200px;
+	padding:10px;
+	background:#44c6dd;
+}
+#m_derecha:hover{
+	width:300px;
+}
+
+#m_izquierda{
+	border-radius: 20px; 
+	background-color:#ddd;
+	width:200px;
+	padding:10px;
+	background:#44c6dd;
+}
+#m_izquierda:hover{
+	width:300px;
+}
+   
